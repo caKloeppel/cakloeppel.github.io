@@ -1,8 +1,29 @@
 .sidebar {
-  background-color: #efefff;
+  background-color: #dfdfdf;
 }
 
 .content {
-  background-color: #fafaff;
-  display: none;
+  background-color: #efefef;
+  /* display: none; */
+  padding-bottom: 1rem;
+}
+
+img {
+  padding-top: 1rem;
+}
+
+footer {
+  margin-top: 1rem;
+}
+
+#links {
+  text-align: center;
+}
+
+#links a {
+  text-decoration: none;
+}
+
+#links i.fa-circle {
+  color: orange;
 }

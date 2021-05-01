@@ -1,6 +1,6 @@
 function showSection(section) {
-  if (!section) section = "default";
-  let sections = ["default", "a", "b"];
+  if (!section) section = "home";
+  let sections = ["home", "a", "b"];
   for (let s_name of sections) {
     let s = "#content-" + s_name;
     if (s_name === section)
@@ -25,3 +25,4 @@ $( document ).ready(() => {
 
   $( ".content" ).show();
 });
+
