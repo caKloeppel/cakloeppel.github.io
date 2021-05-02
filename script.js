@@ -39,7 +39,7 @@ $( document ).ready(() => {
 
     }).on('mouseout', function(event) {
       this.pause();
-
+      this.currentTime = 0;
     });
   })
 });
