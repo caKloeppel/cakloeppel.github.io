@@ -42,16 +42,16 @@ img, video {
 
 footer {
   margin-top: 1rem;
-}
-
-#links {
   text-align: center;
 }
 
-#links a {
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
   text-decoration: none;
 }
 
-#links i.fa-circle {
-  color: orange;
+footer i.fa-circle {
+  color: #424242;
 }
