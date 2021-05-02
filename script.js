@@ -5,7 +5,8 @@ function showSection(section) {
     "animation",
     "sketches",
     "digital",
-    "paintings"
+    "paintings",
+    "photography"
   ];
   for (let s_name of sections) {
     let s = "#content-" + s_name;
