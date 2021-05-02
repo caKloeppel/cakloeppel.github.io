@@ -1,6 +1,12 @@
 function showSection(section) {
   if (!section) section = "home";
-  let sections = ["home", "a", "b"];
+  let sections = [
+    "home",
+    "animation",
+    "sketches",
+    "digital",
+    "paintings"
+  ];
   for (let s_name of sections) {
     let s = "#content-" + s_name;
     if (s_name === section)
