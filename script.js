@@ -34,6 +34,7 @@ $( document ).ready(() => {
 
   $(document).ready(function() {
     $("video").on("mouseover", function(event) {
+      this.currentTime = 0;
       this.play();
 
     }).on('mouseout', function(event) {
