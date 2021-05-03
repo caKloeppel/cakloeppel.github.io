@@ -45,13 +45,12 @@ $( document ).ready(() => {
 
   
 
-  $("video").on("mouseover", function(ev) {
-    this.currentTime = 0;
-    this.play();
-
-  }).on('mouseout', function(ev) {
-    this.pause();
-    this.currentTime = 0;
+  $("video").on("mousemove", function(ev) {
+    let pos =
+      (ev.clientX - this.offsetLeft) / this.clientWidth;
+    pos = Math.round(pos * 100) / 100;
+    pos = 1 - pos;
+    this.currentTime = this.duration * pos;
   });
 });
 

@@ -63,3 +63,11 @@ footer i.fa-circle {
   padding-right: 2rem;
   margin-top: 2rem;
 }
+
+video  {
+  display: block;
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   user-select:none;
+   ::selection: none;  
+}
