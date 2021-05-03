@@ -25,22 +25,22 @@ function updateSection() {
 $( document ).ready(() => {
   updateSection();
 
-  $( "a" ).click((ev) => {
+  $( ".link-section" ).click((ev) => {
     let section = ev.target.href.split("#")[1];
     showSection(section);
   });
 
   $( ".content" ).show();
 
-  $(document).ready(function() {
-    $("video").on("mouseover", function(event) {
-      this.currentTime = 0;
-      this.play();
+  
 
-    }).on('mouseout', function(event) {
-      this.pause();
-      this.currentTime = 0;
-    });
-  })
+  $("video").on("mouseover", function(ev) {
+    this.currentTime = 0;
+    this.play();
+
+  }).on('mouseout', function(ev) {
+    this.pause();
+    this.currentTime = 0;
+  });
 });
 
