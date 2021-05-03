@@ -29,6 +29,17 @@ $( document ).ready(() => {
     let section = ev.target.href.split("#")[1];
     showSection(section);
   });
+  $( ".link-next" ).click((ev) => {
+    let section = ev.target.href.split("#")[1];
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'auto'
+    });
+
+    showSection(section);
+  });
+
 
   $( ".content" ).show();
 

@@ -56,3 +56,10 @@ footer a:hover {
 footer i.fa-circle {
   color: #424242;
 }
+
+.link-next-div {
+  text-align: right;
+  font-size: 1.8rem;
+  padding-right: 2rem;
+  margin-top: 2rem;
+}
